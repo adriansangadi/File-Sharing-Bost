@@ -5,33 +5,33 @@ import os
 from logging.handlers import RotatingFileHandler
 
 # Bot token dari @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5236585015:AAFa2wTusTMnVc02Kwt6mw1wSVWVeapSZKQ")
 
 # API ID Anda dari my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", ""))
+APP_ID = int(os.environ.get("APP_ID", "10107733"))
 
 # API Hash Anda dari my.telegram.org
-API_HASH = os.environ.get("API_HASH", "")
+API_HASH = os.environ.get("API_HASH", "e4494c44e8dad456ebc7d45624b412ec")
 
 # ID Channel Database
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001635588399"))
 
 # OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", ""))
+OWNER_ID = int(os.environ.get("OWNER_ID", "5209831510"))
 
 # NAMA OWNER
 OWNER = os.environ.get("OWNER", "zenfrans")
 
 # Database
-DB_URI = os.environ.get("DATABASE_URL", "")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://adriansangadi1:<password>@cluster0.fquporz.mongodb.net/?retryWrites=true&w=majority")
 
 # Username CH & Group
 CHANNEL = os.environ.get("CHANNEL", "nbzoning")
 GROUP = os.environ.get("GROUP", "OkaeriUserbot")
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
-FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "0"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001550875796"))
+FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "-1002056124443"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
@@ -58,9 +58,8 @@ CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == "True"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(1938466384)
-ADMINS.append(1848248678)
-ADMINS.append(2083606760)
+ADMINS.append(5209831510)
+
 
 LOG_FILE_NAME = "okaerifile.txt"
 
